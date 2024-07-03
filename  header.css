@@ -1,0 +1,61 @@
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cabeçalho {
+    background-color: var(--branco);
+}
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+}
+.container__imagem {
+    padding: 1em;
+}
+/* código omitido */
+
+.lista-menu {
+    display: none;
+}
+/* código omitido */
+
+.lista-menu {
+    display: none;
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
+/* código omitido */
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* código omitido */
+  
+  .lista-menu {
+      display: none;
+      position: absolute;
+  }
+  
+  /* código omitido */
+/* código omitido */
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top:100%;
+}
+
+/* código omitido */
+  
